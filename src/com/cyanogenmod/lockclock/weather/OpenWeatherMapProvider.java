@@ -20,7 +20,7 @@ public class OpenWeatherMapProvider implements WeatherProvider {
     private static final int FORECAST_DAYS = 5;
     private static final String SELECTION_LOCATION = "lat=%f&lon=%f";
     private static final String SELECTION_ID = "id=%s";
-    private static final String APP_ID = "af6b64750bf392c94ec8ff16e6b2d41a";
+    private static final String APP_ID = "6f78ba7672c8f6536605219c3080791e";
 
     private static final String URL_LOCATION =
             "http://api.openweathermap.org/data/2.5/find?q=%s&mode=json&lang=%s&appid="
